@@ -4,7 +4,6 @@ class CreateProdutos < ActiveRecord::Migration[5.0]
       t.string :nome
       t.string :categoria
       t.string :descricao
-
       t.timestamps
     end
   end
